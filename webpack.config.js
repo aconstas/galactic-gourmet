@@ -3,6 +3,10 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     devtool: "inline-source-map",
+    mode: "development",
+    devServer: {
+        static: './dist',
+    },
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
@@ -14,7 +18,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(png|jpg|jpeg|svg|gif)$/i,
+                test: /\.(png|jpg|jpeg|svg|gif|ico)$/i,
                 type: "asset/resource"
             },
             {
