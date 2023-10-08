@@ -6,7 +6,7 @@ export default function loadContact () {
     const contacts = [
         {
             name: "Zorblatt Nebulaflare",
-            role: "head chef",
+            role: "chef",
             phone: "1-800-123-XENO",
             email: "zorblatt@milkwaymunchies.galaxy",
             catchphrase: "Cooking with a pinch of stardust and a dash of cosmic flair!",
