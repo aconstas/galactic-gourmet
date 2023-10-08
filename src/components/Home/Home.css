@@ -3,14 +3,9 @@
 
 body {
     background-color: #211a27;
-    /* border: none;
-    padding: none; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
+/* Nav Bar */
 nav {
     margin-top: 50px;
     color: white;
@@ -19,22 +14,21 @@ nav {
 }
 
 nav ul {
-    display: flex;
     text-align: center;
-    justify-content: space-evenly;
     padding: 0;
 }
 
 nav li {
     display: inline-block;
-    /* margin: 0 25px; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
     text-shadow: #0ECFCD 0 0 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
 }
 
 nav li:hover {
     cursor: pointer;
+    background-color: #0ECFCD;
+
 }
 
 #content {
@@ -49,6 +43,7 @@ nav li:hover {
     border-radius: 6px;
 }
 
+/* Home */
 #title {
     font-family: "Space Grotesk";
     font-size: 100px;
@@ -61,11 +56,13 @@ nav li:hover {
 .container {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 1024px;
+    min-width: 350px;
     border-radius: 8px;
     margin-bottom: 20px;
     background-color: rgb(82, 79, 79);
     align-items: center;
+    text-align: center;
 }
 
 img {
@@ -77,8 +74,45 @@ img {
 
 p {
     text-align: center;
-    width: 50%;
     font-family: "Jost";
     font-size: 18px;
     margin-bottom: 25px;
+    padding: 0 100px;
+}
+
+/* Menu */
+#menu-headline {
+    font-family: 'Space Grotesk';
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.meal-name {
+    font-family: 'Space Grotesk';
+    font-size: xx-large;
+}
+
+#dessertroom-text {
+    padding: 0 50px;
+}
+
+/* Contact */
+.name {
+    font-size: 30px;
+}
+
+
+@media (max-width: 420px) {
+    #title {
+        margin-top: 20px;
+        font-size: 70px;
+    }
+    p {
+        padding: 0 50px;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
 }
