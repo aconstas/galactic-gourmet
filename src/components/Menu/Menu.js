@@ -52,6 +52,7 @@ export default function loadMenu() {
 
     const dessertRoomText = document.createElement('p');
     dessertRoomText.innerText = "These selections are offered only for the current Solunar Cycle. Our zero-gravity dessert room is open every cycle in the revolution from 00:00 - 42:00 (GCT - Galactic Core Time)."
+    dessertRoomText.id = 'dessertroom-text';
     contentDiv.appendChild(dessertRoomText);
 
     return contentDiv;
