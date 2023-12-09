@@ -1,5 +1,5 @@
-import ChefImage from '../../assets/images/chef.png';
-import OwnerImage from '../../assets/images/owner.png';
+import ChefImage from '../../assets/images/chef.webp';
+import OwnerImage from '../../assets/images/owner.webp';
 
 export default function loadContact () {
 

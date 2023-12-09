@@ -1,6 +1,6 @@
-import RestaurantPic from '../../assets/images/restaurant.png';
-import ViewPic from '../../assets/images/dinner-view.png';
-import Dessert from '../../assets/images/dessert.png';
+import RestaurantPic from '../../assets/images/restaurant.webp';
+import ViewPic from '../../assets/images/dinner-view.webp';
+import Dessert from '../../assets/images/dessert.webp';
 
 export default function loadHome () {
     const contentDiv = document.getElementById('content');

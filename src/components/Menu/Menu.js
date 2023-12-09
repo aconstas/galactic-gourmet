@@ -1,6 +1,6 @@
-import Appetizer from '../../assets/images/stellar-stew.png';
-import Main from '../../assets/images/terran-meal.png';
-import Dessert from '../../assets/images/void-velvet-cake.png';
+import Appetizer from '../../assets/images/stellar-stew.webp';
+import Main from '../../assets/images/terran-meal.webp';
+import Dessert from '../../assets/images/void-velvet-cake.webp';
 
 export default function loadMenu() {
     const contentDiv = document.getElementById('content');
