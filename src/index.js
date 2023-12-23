@@ -3,7 +3,6 @@ import loadContact from "./components/Contact/Contact";
 import loadMenu from "./components/Menu/Menu";
 import '../src/components/Home/Home.css';
 
-console.log('Webpack is with you.');
 loadHome();
 
 const contentDiv = document.getElementById('content');
@@ -16,7 +15,6 @@ function clearContent() {
 
 function setupTabs() {
     const tabs = document.querySelectorAll('.tab');
-    console.log(tabs);
     tabs.forEach(tab => {
         tab.addEventListener('click', (e) => {
             clearContent();
