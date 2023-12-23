@@ -15,6 +15,7 @@ export default function loadHome () {
     contentDiv.appendChild(reviewContainer).classList.add('container');
 
     const restaurantImage = document.createElement('img');
+    restaurantImage.loading = 'lazy';
     restaurantImage.src = RestaurantPic;
     restaurantImage.alt = "Inside view of restaurant"
     reviewContainer.appendChild(restaurantImage);
@@ -26,6 +27,7 @@ export default function loadHome () {
     contentDiv.appendChild(text1Container).classList.add('container');
 
     const viewImage = document.createElement('img');
+    viewImage.loading = 'lazy';
     viewImage.src = ViewPic;
     viewImage.alt = "View from dining area";
     text1Container.appendChild(viewImage);
@@ -37,6 +39,7 @@ export default function loadHome () {
     contentDiv.appendChild(text2Container).classList.add('container');
 
     const dessertImage = document.createElement('img');
+    dessertImage.loading = 'lazy';
     dessertImage.src = Dessert;
     dessertImage.alt = "Image of galactic dessert";
     text2Container.appendChild(dessertImage);

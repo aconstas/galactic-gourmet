@@ -40,6 +40,7 @@ export default function loadMenu() {
         card.appendChild(name);
 
         const image = document.createElement('img');
+        image.loading = 'lazy';
         image.src = meal.image;
         image.alt = `Image of ${meal.image}`;
         card.appendChild(image);

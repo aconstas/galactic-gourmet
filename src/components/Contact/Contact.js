@@ -35,6 +35,7 @@ export default function loadContact () {
         card.appendChild(name);
 
         const profileImage = document.createElement('img');
+        profileImage.loading = 'lazy';
         profileImage.classList.add('profile-image');
         profileImage.src = contact.image;
         profileImage.alt = `${contact.name} profile image`;
